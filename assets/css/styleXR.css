@@ -1,0 +1,48 @@
+/**
+* Template Name: Rapid
+* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+
+/* Clients Section
+--------------------------------*/
+#clientsS {
+  padding: 60px 0;
+  background: #ececec;
+}
+
+#clientsS img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+#clientsS img:hover {
+  opacity: 1;
+}
+
+#clientsS .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+#clientsS .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #ececec;
+  opacity: 1;
+  border: 1px solid #46a96b;
+}
+
+#clientsS .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #46a96b;
+}
+
+/* Pricing Section
+--------------------------------*/
