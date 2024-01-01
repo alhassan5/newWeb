@@ -682,7 +682,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.servicesB .icon-box {
+.servicesB .iconB-boxB {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -693,7 +693,7 @@ section {
   z-index: 1;
 }
 
-.servicesB .icon-box::before {
+.servicesB .iconB-boxB::before {
   content: "";
   position: absolute;
   background: #2a9d908a;
@@ -706,7 +706,7 @@ section {
   z-index: -1;
 }
 
-.servicesB .icon-box:hover::before {
+.servicesB .iconB-boxB:hover::before {
   background: #2a9d8f;
   right: 0;
   top: 0;
@@ -715,7 +715,7 @@ section {
   border-radius: 0px;
 }
 
-.servicesB .icon {
+.servicesB .iconB {
   margin: 0 auto 20px auto;
   padding-top: 10px;
   display: inline-block;
@@ -727,41 +727,40 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.servicesB .icon i {
+.servicesB .iconB i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
 }
 
-.services .title {
+.services .titleB {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.servicesB .title a {
+.servicesB .titleB a {
   color: #111;
 }
 
-.servicesB .description {
+.servicesB .descriptionB {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.servicesB .icon-box:hover .title a,
-.servicesB .icon-box:hover .description {
+.servicesB .iconB-boxB:hover .titleB a,
+.servicesB .iconB-boxB:hover .descriptionB {
   color: #fff;
 }
 
-.servicesB .icon-box:hover .icon {
+.servicesB .icon-boxB:hover .iconB {
   background: #fff;
 }
 
-.servicesB .icon-box:hover .icon i {
+.servicesB .icon-boxB:hover .iconB i {
   color: #2a9d8f;
 }
-
 /*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
